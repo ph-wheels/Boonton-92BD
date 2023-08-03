@@ -27,3 +27,4 @@ on the backplane connector which was originally intended to hold the auto rangin
 On this connector we also need to make one additional connection being a jumper wire to provide
 5 Vdc to the auto ranging connector.
 
+More to follow ......
