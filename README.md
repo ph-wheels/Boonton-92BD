@@ -27,4 +27,21 @@ on the backplane connector J103 which was originally intended to hold the auto r
 On this connector we also need to make one additional connection being a jumper wire to provide
 5 Vdc to the auto ranging connector j103.
 
+The current design consist of two part being: the autoranging circuit and the SSR control circuit
+which are both controlled by the MCU for which I used the ESP32 (and Yes both BT & WiFi are being
+turned off) and the MCU choice was based on previous projects and it large amount of IO pins.
+
+As the 92 series RF meter is using negative control voltage (upto -15 Vdc) and the MCU it's pins
+are only 3.3 Vdc tolerant we are using 9 optocouplers (8 for the range selection and 1 for auto
+range mode) to overcome this difference in control voltages. All what needed is to measure the
+analog voltage which needs to be reduced to less than 3 Vdc which is done with a small divider
+resistor network.
+
+The chopper part takes the original chopper tube connector being plugged directly onto the pcb and
+its voltage level being reduced to less than 3.3Vdc as input to the MCU. The MCU will adjust the signal
+output to the SSR slightly as obtain a contact timing which is simular to the chopper tube and to
+assure is has an break before make SPDT contact behaviour. Driving the opto input side of  the SSR
+is easy and only requires a single resistor to limit the opto couple led current.
+
+
 More to follow ......
