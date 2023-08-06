@@ -45,3 +45,7 @@ is easy and only requires a single resistor to limit the opto couple led current
 
 
 More to follow ......
+
+Will add a few pictures as to provide some detail on the build & mods needed
+
+Have fun building
