@@ -1,5 +1,6 @@
 # Boonton 92 series
-How to fix your 92 series RF Millivolt Meter
+
+How to fix & add auto range option to your 92 series RF Millivolt Meter
 
 Some years ago I came across a 92BD RF Millivolt meter which was in reasonable condition
 but after some time started to produce some issue which indiicated that the chopper tube
