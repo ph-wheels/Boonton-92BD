@@ -44,9 +44,11 @@ output to the SSR slightly as obtain a contact timing which is simular to the ch
 assure is has an break before make SPDT contact behaviour. Driving the opto input side of  the SSR
 is easy and only requires a single resistor to limit the opto couple led current.
 
+V2.2 PCB, it works fine but needed some tweaking on the physical size, connector position and some
+GPIO ports where changes as to be able to add an JTAG port.
 
-More to follow ......
+![20230806_115556](https://github.com/ph-wheels/Boonton_92BD/assets/10708995/48fdfadd-2625-4f61-920f-065d6dd4d30e)
 
-Will add a few pictures as to provide some detail on the build & mods needed
+A few other pictures as to provide some detail on the build & mods needed
 
 Have fun building
