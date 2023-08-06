@@ -44,11 +44,18 @@ output to the SSR slightly as obtain a contact timing which is simular to the ch
 assure is has an break before make SPDT contact behaviour. Driving the opto input side of  the SSR
 is easy and only requires a single resistor to limit the opto couple led current.
 
-V2.2 PCB, it works fine but needed some tweaking on the physical size, connector position and some
-GPIO ports where changes as to be able to add an JTAG port.
+V2.2 PCB picture, it works fine but needed some tweaking on the physical size, connector position, some
+GPIO ports where changed, an JTAG port, seriel port was ommited and few resistors.
+Mind the small pcb within the large one needs to be removed and it will be used behind the instrument
+input connector mounted on two short standoff's using the holes of the chopper tube bracket.
 
 ![20230806_115556](https://github.com/ph-wheels/Boonton_92BD/assets/10708995/48fdfadd-2625-4f61-920f-065d6dd4d30e)
 
 A few other pictures as to provide some detail on the build & mods needed
+
+The small SSR PCB will only hold the original cap's which came from the chopper tube socket, mind the black strip
+to be connected to the ground pad's of C1 & C3 and the SSR then using some small coax to be routed to the input
+connector and the analog main PCB. Reason for the cut out SSR PCB is to reduce PCB fabrication cost and the main
+PCB has so much real estate left that it was an obvious choice to make.
 
 Have fun building
