@@ -1,4 +1,4 @@
-# Boonton-92BD
+# Boonton 92 series
 How to fix your 92 series RF Millivolt Meter
 
 Some years ago I came across a 92BD RF Millivolt meter which was in reasonable condition
