@@ -51,7 +51,8 @@ input connector mounted on two short standoff's using the holes of the chopper t
 
 ![20230806_115556](https://github.com/ph-wheels/Boonton_92BD/assets/10708995/48fdfadd-2625-4f61-920f-065d6dd4d30e)
 
-A few other pictures as to provide some detail on the build & mods needed
+This picture is from V2.2 PCB, V2.7 still to be build and will make a much cleaner impression !
+A few other pictures (in main folder) as to provide some detail on the build & mods needed
 
 The small SSR PCB will only hold the original cap's which came from the chopper tube socket, mind the black strip
 to be connected to the ground pad's of C1 & C3 and the SSR then using some small coax to be routed to the input
